@@ -1,7 +1,7 @@
 {
-  "name": "securepay-types",
+  "name": "stacksale-pay-types",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/securepay-types/src",
+  "sourceRoot": "libs/stacksale-pay-types/src",
   "projectType": "library",
   "release": {
     "version": {
@@ -17,10 +17,10 @@
       "executor": "@nx/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/libs/securepay-types",
-        "main": "libs/securepay-types/src/index.ts",
-        "tsConfig": "libs/securepay-types/tsconfig.lib.json",
-        "assets": ["libs/securepay-types/*.md"]
+        "outputPath": "dist/libs/stacksale-pay-types",
+        "main": "libs/stacksale-pay-types/src/index.ts",
+        "tsConfig": "libs/stacksale-pay-types/tsconfig.lib.json",
+        "assets": ["libs/stacksale-pay-types/*.md"]
       }
     },
     "nx-release-publish": {
